@@ -17,7 +17,7 @@ passwordInput.addEventListener('keyup', function(){
 
 const regexList = [/[a-z_]+/, /[A-Z_]+/, /[0-9_]+/, /[^\w]+/, /.{8,}/];
 
-const strength = function(input){
+const strength = (input) => {
     let score = 0;
     const increment = 100 / regexList.length;
     regexList.forEach((regex) => {
