@@ -15,7 +15,7 @@ passwordInput.addEventListener('keyup', function(){
 // 3: characters other than the 3 above (and underscores)
 // 4: password is greater than 8 characters
 
-const regexList = [/[a-z_]+/, /[A-Z_]+/, /[0-9_]+/, /[^\w]+/, /.{8,}/];
+const regexList = [/[a-z]+/, /[A-Z]+/, /[0-9]+/, /[!@#$%^&*_]+/, /.{8,}/];
 
 const strength = (input) => {
     let score = 0;

@@ -1,3 +1,9 @@
+#progress {
+  margin-top: 50vh;
+  width: 500px;
+  height: 40px;
+}
+
 label,
 span {
   font-size: 30px;
@@ -6,10 +12,4 @@ span {
 span {
   position: relative;
   bottom: 10px;
-}
-
-#progress {
-  margin-top: 50vh;
-  width: 500px;
-  height: 40px;
 }
