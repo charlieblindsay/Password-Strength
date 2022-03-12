@@ -1,15 +1,15 @@
 #progress {
-  margin-top: 50vh;
   width: 500px;
   height: 40px;
+  bottom: 30px;
+  position: relative;
 }
 
 label,
-span {
+p {
   font-size: 30px;
 }
 
-span {
-  position: relative;
-  bottom: 10px;
+p {
+  margin-top: 40vh;
 }
